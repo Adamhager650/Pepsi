@@ -1,0 +1,139 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 350px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+.manu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.manu:hover {
+  color: #3366ff;
+}
+
+.main-p {
+  color: white;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.a1{
+text-decoration:none;
+color:white;
+transition:0.5s;
+}
+
+.a1:hover{
+color:#0099ff;
+transition:0.7s;
+border-bottom:2px solid white;
+}
+
+
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8{
+width:400px;
+height:auto;
+display:flex;
+margin-left:60px;
+justify-content:center;
+animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+.f1:hover,
+.f2:hover,
+.f3:hover,
+.f4:hover,
+.f5:hover,
+.f6:hover,
+.f7:hover,
+.f8:hover{
+animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+
+@keyframes scale-up-center {
+0% {
+transform: scale(0.5);
+}
+100% {
+transform: scale(1);
+}
+}
+
+.d1,
+.d2,
+.d3,
+.d4{
+margin-top:100px;
+display:flex;
+justify-content:center;
+flex-direction:coulmn;
+gap:50px;
+}
+
+.b1,
+.b2,
+.b3,
+.b4{
+padding-top:10px;
+padding-bottom:10px;
+padding-left:40px;
+padding-right:40px;
+margin-left:650px;
+background-color:#1a1aff;
+color:white;
+border-radius:100px;
+font-weight:700;
+transition:0.5s;
+animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.b1:hover,
+.b2:hover,
+.b3:hover,
+.b4:hover{
+color:#000080;
+transition:0.5s;
+}
