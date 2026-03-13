@@ -1,0 +1,154 @@
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 80px;
+  margin-right:350px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+.manu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.manu:hover {
+  color: #3366ff;
+}
+.a1{
+text-decoration:none;
+color:white;
+transition:0.5s;
+}
+.a1:Hover{
+color:#0099ff;
+transition:0.7s;
+border-bottom:2px solid white;
+}
+.hero-section{
+display:flex;
+margin-left:100px;
+justify-content:start;
+flex-direction:column;
+}
+.hero-p{
+font-size:100px;
+font-weight:700;
+color:white;
+width:420px;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+.small-p{
+font-size:40px;
+margin-top:30px;
+color:white;
+}
+.information{
+display:flex;
+margin-left:50px;
+flex-direction:column;
+border:1px solid white;
+width:500px;
+margin-right:0px;
+float:left;
+}
+.phone,
+.Eamil,
+.location{
+color:#9494b8;
+font-size:30px;
+margin-bottom:0px;
+margin-left:50px;
+
+}
+.num,
+.com,
+.location-map{
+color:white;
+margin-left:50px;
+font-size:30px;
+margin-top:20px;
+}
+.map{
+font-size:30px;
+text-decoration:none;
+color:#009900;
+margin-left:50px;
+}
+.map:hover{
+color:#00cc00;
+text-decoration:underline;
+}
+.form{
+display:flex;
+justify-content:end;
+flex-direction:column;
+
+}
+.names{
+color:#7575a3;
+font-size:20px;
+
+}
+
+.first-name,
+.second-name,
+.email,
+.submit{
+padding:15px;
+background-color:transparent;
+border:1px solid white;
+color:white;
+width:700px;
+
+}
+.eamil{
+display:flex;
+justify-content:end;
+flex-direction:column;
+margin-top:10px;
+}
+.submit{
+padding:10px;
+color:blue;
+background-color:#3366ff;
+border-radius:15px;
+margin-left:20px;
+width:100px;
+margin-left:300px;
+}
+form{
+
+display:flex;
+justify-content:start;
+flex-direction:column;
+}
